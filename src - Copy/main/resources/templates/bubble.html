@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bubble Tea</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <style>
+  body {
+    position: relative; 
+  }
+  #Home {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #About {padding-top:50px;height:1200px;background-image: url("/images/bg2.png");background-repeat: no-repeat;background-size: cover;}
+  #Menus {padding-top:50px;height:700px;background-image: url("/images/bg7.png");background-repeat: no-repeat;background-size: cover;}
+  #Contact {padding-top:50px;height:420px;background-image: url("/images/contact.png");background-repeat: no-repeat;background-size: cover;}
+
+  .nav-tabs li a {
+    color: #777;
+  }
+   
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color:black;
+    border: 0;
+    font-size: 15px !important;
+    letter-spacing: 2px;
+    text-indent: 5px;
+    opacity: 0.6;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  #img1{
+    margin-left: 120px;
+  }
+  #img2{
+    margin-left: 90px;
+  }
+  
+  
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+    
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="/index"><span class="glyphicon glyphicon-home"></span><b>Home</b></a></li> &nbsp;
+              <li><a href="#About"><span class="glyphicon glyphicon-cog"></span><b>About our service</b></a></li>
+              <li><a href="#Menus"><span class="glyphicon glyphicon-th"></span><b>Menus</b></a></li>
+              <li><a href="#Contact"><span class="glyphicon glyphicon-send"></span><b>Contact Us</b></a></li>
+                </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>    
+
+
+<div id="About" class="container-fluid">
+    <div class="container">
+        <center><h1 style="color: white;font-family: Elephant;">About Our Service</h1></center>
+  
+        <!-- Left-aligned media object -->
+        <div class="media" style="margin-left: -50px;">
+          <div class="media-left">
+            <img src="/images/pic9.png" class="media-object" style="width: 250px;height: 250px;border-radius: 30px;">
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading" style="font-size: 28px;color: white;font-family: Elephant;">Bubble Tea</h4><br>
+            <p style="font-size: 18px;text-align: justify;color: white;"> &nbsp; &nbsp;Bubble tea is a tea-based drink that originated in Taiwan in the early 1980s.Bubble tea most commonly 
+                consists of tea accompanied by chewy tapioca balls ("boba" or "pearls"), but it can be made 
+                with other toppings as well, such as grass jelly, aloe vera, red bean, and popping boba.Bubble
+                 tea is a Taiwanese recipe made by blending tea with milk, fruit and fruit juices, then adding
+                  tasty tapioca pearls and shaking vigorously.</p>
+                  <ul style="font-size: 18px;color: white;">
+                    <li>Boba tea is made of tea, milk, water, sugar and tapioca pearls. </li>
+                    <li> There's currently no evidence that it has particular health benefits</li>
+                   <li> boba itself provides very few health benefits,</li>
+                  </ul>
+          </div>
+        </div>
+        <hr>
+        
+        <!-- Right-aligned media object -->
+        <div class="media">
+          <div class="media-body">
+            <h4 class="media-heading" style="font-size: 28px;color: white;font-family: Elephant;">About Shop</h4><br>
+            <p style="font-size: 18px;text-align: justify;color: white;">&nbsp;&nbsp;Our shop makes Bubble Teas, coffee shop, or café is an establishment that primarily serves various types of coffee, espresso, latte, and cappuccino. Some coffeehouses may serve cold drinks,
+                 such as iced coffee and iced tea, as well as other non-caffeinated beverages.<br><br>
+                 A clear cup with black tapioca balls on the bottom can easily identify bubble tea drinks. Another obvious trait is a huge fat straw. The fat straw is needed so that the tapioca pearls can be sucked up with the bubble tea drink and eaten.
+                  Bubble Tea's appearance definitely makes it unique.</p>
+          </div>
+          <div class="media-right">
+            <img src="/images/shop.png" class="media-object" style="width: 320px;height: 250px;border-radius: 30px;">
+          </div>
+        </div>
+      </div><br>
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center" style="color: white;">
+    <h2 style="font-family: Elephant;">SERVICES</h2>
+    <h4 style="font-family: Elephant;">What we offer</h4>
+    <br>
+    <div class="row slideanim">
+        <div class="col-sm-4">
+            <span class="glyphicon glyphicon-wrench logo-small" style="color: orange;font-size: 30px;"></span>
+            <h4 style="color:white;font-family: Elephant;">HARD WORK</h4>
+            <p style="font-family: Elephant;">Hard work always pays off..</p>
+          </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-heart logo-small" style="color: orange;font-size: 30px;"></span>
+        <h4 style="font-family: Elephant;">LOVE</h4>
+        <p style="font-family: Elephant;">Love does not dominate it cultivates..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-lock logo-small" style="color: orange;font-size: 30px;"></span>
+        <h4 style="font-family: Elephant;">JOB DONE</h4>
+        <p style="font-family: Elephant;">You've stepped up in a big way..</p>
+      </div>
+    </div>
+    <br><br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-leaf logo-small" style="color: orange;font-size: 30px;"></span>
+        <h4 style="font-family: Elephant;">GREEN</h4>
+        <p style="font-family: Elephant;">When you're green, your growing..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-certificate logo-small" style="color: orange;font-size: 30px;"></span>
+        <h4 style="font-family: Elephant;">CERTIFIED</h4>
+        <p style="font-family: Elephant;">A certificate without knowledge is like a gun..</p>
+      </div>
+     
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  
+</div>
+<div id="Menus" class="container-fluid">
+  <center><h1 style="font-family: Elephant;color: white;">Menus</h1></center><br>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="container">
+        <img src="/images/fr.png" class="img-thumbnail"  width="350" height="200" id="img2"> <br><br>
+<h4 style="margin-left: 190px; font-family: elephant;color: white;">Fruit Flavours</h4>
+<span class="glyphicon glyphicon-star" style="color: gold;font-size: 20px;margin-left: 200px;"></span>
+<span class="glyphicon glyphicon-star" style="color: gold;font-size: 20px;"></span>
+<span class="glyphicon glyphicon-star" style="color: gold;font-size: 20px;"></span>
+<span class="glyphicon glyphicon-star" style="color: gold;font-size: 20px;"></span>
+<span class="glyphicon glyphicon-star-empty" style="color: gold;font-size: 20px;"></span><br><br>
+
+     <a href="/FF2"   <button class="btn btn-success" style="margin-left: 210px;">View items</a></button>
+
+      </div>
+
+    </div>
+    
+      <div class="col-sm-6" >
+        <img src="/images/ch3.png" class="img-thumbnail"  width="350" height="200" id="img1"><br><br>
+        <h4 style="margin-left: 220px;font-family: elephant;color: white;">Chocolate Flavours</h4>
+<span class="glyphicon glyphicon-star" style="color: gold;font-size: 20px;margin-left: 250px;"></span>
+<span class="glyphicon glyphicon-star" style="color: gold;font-size: 20px;"></span>
+<span class="glyphicon glyphicon-star" style="color: gold;font-size: 20px;"></span>
+<span class="glyphicon glyphicon-star" style="color: gold;font-size: 20px;"></span>
+<span class="glyphicon glyphicon-star" style="color: gold;font-size: 20px;"></span><br><br>
+
+<a href="/FF3"   <button class="btn btn-success" style="margin-left: 260px;">View items</a></button>
+
+
+      </div>
+      </div>
+  
+</div>
+<br>
+<div id="Contact" class="container-fluid">
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+    <h2 class="text-center" style="font-family: Elephant;color: white;">CONTACT &nbsp US</h2><br>
+    <div class="row">
+      <div class="col-sm-5" style="font-size: 18px;color: white;">
+        <p>Contact us and we'll get back to you within 24 hours.</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Vadavali,Coimbatore</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +91 9360272720</p>
+        <p><span class="glyphicon glyphicon-envelope"></span>mohanr9360272720@gmail.com</p>
+      </div>
+      <form name="Contact_Form" action="/" method="post">
+       <div class="col-sm-7 slideanim">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+        </div>
+        <div class="col-sm-6 form-group">
+            <input class="form-control" id="phone_number" name="phone_number" placeholder="number" type="number" required style="margin-left: -16px;width: 352px;">
+          </div>
+          <div class="col-sm-6 form-group" >
+           <select class="form-control" style="width: 352px;" name="city" id="city">
+            <option value="select">--select city--</option>
+            <option value="Coimbatore">Coimbatore</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Salem">Salem</option> <option value="Namakkal">Namakkal</option>
+            <option value="Madhuri">Madhuri</option>
+
+
+           </select>
+
+          </div>
+        <textarea class="form-control" id="comment" name="comment" placeholder="Comment" rows="5"></textarea><br>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <button class="btn btn-success pull-right" type="submit">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<br>
+  </form>
+  <br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15664.756974468291!2d76.88860555541991!3d11.024423800000019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85f8581707aff%3A0x537ddb86a024cea9!2sBubble%20Tea!5e0!3m2!1sen!2sin!4v1699523500976!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br>
+<br>
+
+<footer style="width: 100%;height: 200px;background-color: #29292c;border-radius:calc(15px)"><br>
+<h1 style="color: white;"><center>Contacts</center></h1><br>
+<div class="col-sm-6" style="color:white">
+  <p><span class="glyphicon glyphicon-map-marker"></span> Vadavali,Coimbatore</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +91 9360272720</p>
+        <p><span class="glyphicon glyphicon-envelope"></span>mohanr9360272720@gmail.com</p>
+
+</div>
+<div class="col-sm-6" style="color:white"; >
+  <p><span class="glyphicon glyphicon-map-marker">India</span></p>
+  <p><span class="glyphicon glyphicon-map-marker">America</span></p>
+  <p><span class="glyphicon glyphicon-map-marker">London</span></p>
+ 
+ 
+</div>
+
+<br><br>
+</footer>
+
+
+
+ 
+</div>
+
+
+ 
+  
+
+</body>
+
+</html>
